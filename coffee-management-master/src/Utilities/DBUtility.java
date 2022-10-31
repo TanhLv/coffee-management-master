@@ -21,7 +21,8 @@ public class DBUtility {
 
     public static Connection openConnection() {
         Connection con = null;
-        String url = "jdbc:mysql://localhost:3306/db_ql_quancafe?useUnicode=true&characterEncoding=UTF-8";
+       String url = "jdbc:mysql://localhost:3306/qlcf";
+       
         String user = "root";
         String password = "";
         try {
